@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aiogram3-webhook-simple"
+version = "0.1.0"
+description = ""
+authors = ["xolmomin <xolmomin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aiogram3_webhook_simple"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "3.0b7"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
